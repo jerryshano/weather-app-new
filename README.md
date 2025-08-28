@@ -1,12 +1,34 @@
-# React + Vite
+# 🌦️ Weather Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Weather Explorer is a modern React app that lets you search for cities and view real-time weather data. Each search creates a **persistent weather card**, so you can compare multiple locations side by side.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- 🔍 Search weather by city name
+- 📊 Displays temperature, humidity, wind speed, and conditions
+- 🗂️ Persistent weather cards – each search stays visible until removed
+- ❌ Remove individual weather cards with one click
+- 🎨 Clean and responsive UI built with React + modern CSS
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Demo
+Live demo coming soon (Vercel deployment link here)
+
+---
+
+## 🛠️ Tech Stack
+- **React** (frontend UI)
+- **Axios** (fetching weather data)
+- **OpenWeather API** (weather data source)
+- **Vite / Create React App** (fast dev environment)
+
+---
+
+## 📦 Installation & Setup
+
+Clone the repo:
+```bash
+git clone https://github.com/your-username/weather-app.git
+cd weather-app
